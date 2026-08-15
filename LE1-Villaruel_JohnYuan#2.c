@@ -13,7 +13,7 @@ int main(){
     printf("[4]Sinking                        |\n");
     printf("[5]Poise                          |\n");
     printf("+=================================+\n");
-    printf("+======================[TO BATTLE]+\n");
+    printf("=======================[TO BATTLE]=\n");
     
     return 0;
 }
