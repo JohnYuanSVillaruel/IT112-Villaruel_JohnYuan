@@ -5,8 +5,6 @@ int main(){
     int num1;
     int num2;
 
-   
-
     printf("Enter your complete name: ");
     fgets(name, sizeof(name), stdin);
     printf("Enter your complete section: ");
@@ -31,8 +29,6 @@ int main(){
     printf("%d - %d = %d \n", num1 , num2, sub);
     printf("%d * %d = %d \n", num1 , num2, mult);
     printf("%d / %d = %.2f \n", num1 , num2, div);
-
-
 
     return 0;
 }
