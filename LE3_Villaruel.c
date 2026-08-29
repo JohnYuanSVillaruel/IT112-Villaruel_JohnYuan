@@ -24,7 +24,7 @@ int main(){
 
     printf("\nStudent Calculator\n");
     printf("Student name: %s", name);
-    printf("Student section: %s\n", section);
+    printf("Student section: %s", section);
     
     printf("results:\n");
     printf("%d + %d = %d \n", num1 , num2, add);
