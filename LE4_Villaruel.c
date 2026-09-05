@@ -15,7 +15,7 @@ int main(){
     printf("Enter section: ");
     fgets(section,sizeof(section),stdin);
 
-    printf("Enter your 1st Quarter Grade: ");
+    printf("\nEnter your 1st Quarter Grade: ");
     scanf("%d", &first);
 
     printf("Enter your 2nd Quarter Grade: ");
@@ -29,7 +29,7 @@ int main(){
     
     float avrg = (first + second + third + fourth) / 4.0;
 
-    printf("Student: %s", name);
+    printf("\nStudent: %s", name);
     printf("Section: %s", section);
     printf("General Average: %.2f\n", avrg);
 
